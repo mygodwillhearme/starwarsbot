@@ -10,7 +10,7 @@ BOT_ID = "U49GZTWPL" # os.environ.get("BOT_ID")
 AT_BOT = "<@" + BOT_ID + ">"
 
 # instantiate Slack & Twilio clients
-slack_client = SlackClient("xoxb-145577948802-YyvbmKihDqcgkgcv7acMD1se") # os.environ.get('SLACK_BOT_TOKEN'))
+slack_client = SlackClient(SLACK_TOKEN) # os.environ.get('SLACK_BOT_TOKEN'))
 
 
 def handle_command(command, channel):
